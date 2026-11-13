@@ -27,8 +27,6 @@ parameters:
       - CodeIgniter\Shield\Config\Services
   ignoreErrors:
     - identifier: function.internal
-    - identifier: return.internalClass
-    - identifier: staticMethod.internal
     -
         message: '#Dynamic call to static method PHPUnit\\#'
         identifier: staticMethod.dynamicCall
