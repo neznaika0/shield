@@ -96,7 +96,6 @@ class NothingPersonalValidator extends BaseValidator implements ValidatorInterfa
                 }
             }
 
-            $needles = array_unique($needles, SORT_LOCALE_STRING);
             $trivial = [
                 'a',
                 'an',
